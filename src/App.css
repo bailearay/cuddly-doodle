@@ -12,6 +12,7 @@ h1 {
   font-size: 100px;
   text-align: justify;
   text-justify: inter-word;
+  max-width: 668;
 }
 h2 {
   color: var(--black);
@@ -23,7 +24,11 @@ h2 {
   height: 70%;
   width: 75%;
 }
-
+.centered-x {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
 .centered {
   position: absolute;
   top: 50%;
@@ -46,6 +51,5 @@ input {
   margin-top: 5%;
   font-family: "Julius Sans One", sans-serif;
   overflow-y: visible;
-  margin-left: 30px;
-  margin-right: 30px;
+  width: 668;
 }
