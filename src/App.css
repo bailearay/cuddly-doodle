@@ -1,7 +1,8 @@
 :root {
-  --lt-bg: rgb(243, 239, 235);
-  --lt-pri: #dd907d;
-  --dk-bg: #c9b086;
+  --lt-bg: rgb(243, 235, 237);
+  --lt-pri: #9d1b57;
+  --dk-bg: #767b91;
+  --black: #061320;
 }
 /* .App {
 
@@ -9,6 +10,11 @@
 h1 {
   color: var(--lt-pri);
   font-size: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+h2 {
+  color: var(--black);
 }
 .form {
   background-color: var(--lt-bg);
@@ -17,20 +23,7 @@ h1 {
   height: 70%;
   width: 75%;
 }
-.split {
-  height: 75%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  overflow-x: hidden;
-  top: 180px;
-}
-.left {
-  left: 0;
-}
-.right {
-  right: 0;
-}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -38,9 +31,7 @@ h1 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.top {
-  top: 100px;
-}
+
 input {
   border-radius: 4px;
 }
@@ -50,4 +41,11 @@ input {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 70%;
   width: 75%;
+}
+.greet {
+  margin-top: 5%;
+  font-family: "Julius Sans One", sans-serif;
+  overflow-y: visible;
+  margin-left: 30px;
+  margin-right: 30px;
 }
