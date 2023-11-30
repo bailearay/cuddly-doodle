@@ -47,9 +47,39 @@ input {
   height: 70%;
   width: 75%;
 }
-.greet {
-  margin-top: 5%;
+.menu {
+  list-style-type: none;
   font-family: "Julius Sans One", sans-serif;
-  overflow-y: visible;
-  width: 668;
+  margin-top: 91px;
+  margin-left: 91px;
+  height: min-content;
+}
+.menu-item {
+  margin-bottom: 46px;
+  text-decoration: underline;
+  color: #767b91;
+}
+.greet {
+  right: 0px;
+  top: 610px;
+  /* bottom: 160px; */
+  margin: auto 160px;
+  text-align: right;
+  position: absolute;
+}
+.message {
+  color: #9d1b57;
+  font-size: 20px;
+  font-family: "Kantumruy Pro", sans-serif;
+}
+.name {
+  font-size: 96px;
+  display: inline;
+  font-family: "Julius Sans One", sans-serif;
+}
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
 }

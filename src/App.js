@@ -1,12 +1,14 @@
 import "./App.css";
+import { About } from "./components/About";
+import { Cover } from "./components/Cover";
 
 function App() {
   return (
     <div className="App">
-      <div></div>
-      <div className="greet centered-x">
-        <h1>Welcome to Bailea's Portfolio</h1>
-      </div>
+      <Cover />
+      {/* <About />
+      <Skills />
+      <Contact /> */}
     </div>
   );
 }
