@@ -8,11 +8,17 @@
 
 } */
 h1 {
-  color: var(--lt-pri);
-  font-size: 100px;
-  text-align: justify;
-  text-justify: inter-word;
-  max-width: 668;
+  color: var(--lt-bg);
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: normal;
+}
+
+.title {
+  float: right;
+  position: absolute;
+  top: 2vh;
+  right: 164px;
+  font-size: 96px;
 }
 h2 {
   color: var(--black);
@@ -53,17 +59,17 @@ input {
   margin-top: 91px;
   margin-left: 91px;
   height: min-content;
+  padding-left: 0%;
 }
 .menu-item {
   margin-bottom: 46px;
   text-decoration: underline;
-  color: #767b91;
 }
 .greet {
-  right: 0px;
+  right: 160px;
   top: 610px;
   /* bottom: 160px; */
-  margin: auto 160px;
+
   text-align: right;
   position: absolute;
 }
@@ -82,4 +88,29 @@ input {
   width: 100%;
   display: flex;
   position: relative;
+  scroll-snap-align: end;
+}
+
+.dark {
+  background-color: var(--lt-pri);
+}
+.container {
+  scroll-snap-type: y mandatory;
+}
+.summary {
+  position: absolute;
+  top: 50vh;
+  margin-left: 112px;
+}
+.scroller {
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+section {
+  scroll-snap-align: start;
+  position: relative;
+}
+body {
+  overflow: hidden;
 }
