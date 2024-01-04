@@ -1,4 +1,4 @@
-This application is made with React, applying knowledge from html ad css.
+This application is made with React, applying knowledge from html and css.
 
 # Getting Started with Create React App
 
