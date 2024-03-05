@@ -6,12 +6,16 @@ export const Menu = (props) => {
   const opt3 = props.opt3;
 
   return (
-    <div>
-      <ul className="menu">
-        <li className="menu-item">{props.opt1}</li>
-        <li className="menu-item">{props.opt2}</li>
-        <li className="menu-item">{props.opt3}</li>
-      </ul>
-    </div>
+    <>
+      <a className="menu-item " href={`#${opt1}`}>
+        {opt1}
+      </a>
+      <a className="menu-item " href={`#${opt2}`}>
+        {opt2}
+      </a>
+      <a className="menu-item " href={`#${opt3}`}>
+        {opt3}
+      </a>
+    </>
   );
 };

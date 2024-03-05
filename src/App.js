@@ -3,20 +3,21 @@ import { About } from "./components/About";
 import { Cover } from "./components/Cover";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
+import React from "react";
 
 function App() {
   return (
     <div className="App scroller">
-      <section>
+      <section id="home" className="flexDis">
         <Cover />
       </section>
-      <section>
+      <section id="about" className="flexDis">
         <About />
       </section>
-      <section>
+      <section id="skills" className="flexDis">
         <Skills />
       </section>
-      <section>
+      <section id="contact" className="flexDis">
         <Contact />
       </section>
     </div>
