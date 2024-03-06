@@ -22,7 +22,8 @@ export const About = () => {
       <div className="summary">
         <p>
           During my time at Dalton State College, I have gained experience in
-          many areas of Information Technology.
+          many areas of Information Technology, but in my first Introduction to
+          Programming class, I knew I found what I was most passionate about.
         </p>
       </div>
     </div>
