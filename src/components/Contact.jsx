@@ -26,6 +26,16 @@ export const Contact = () => {
       <Container fluid>
         <Row>
           <Col>
+            <h4>Email: </h4>
+          </Col>
+          <Col>
+            <a target="_blank" href="mailto:b.danyelle.ray@gmail.com">
+              b.danyelle.ray@gmail.com
+            </a>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
             <h4>GitHub: </h4>
           </Col>
           <Col>
